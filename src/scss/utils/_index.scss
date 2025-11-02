@@ -1,0 +1,4 @@
+@forward "mixin";
+@forward "variables";
+// @forward "variables" hide $active; - доступно все окрім $active
+// @forward "variables" show $active; - доступно тільки $active
