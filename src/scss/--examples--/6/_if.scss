@@ -37,7 +37,7 @@
         @if $ls == normal {
             letter-spacing: normal;
         } @else if math.unit($ls) == "px" {
-            letter-spacing: calc($ls / $fs);
+            letter-spacing: #{calc($ls / $fs)}em;
         } @else {
             @error "$ls value #{$ls} is incorrect";
         }
