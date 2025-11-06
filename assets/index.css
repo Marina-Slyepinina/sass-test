@@ -1,82 +1,61 @@
-.avatar {
-  width: 150px;
-  height: 150px;
+.square-avatar {
+  width: 100px;
+  height: 100px;
+}
+
+.circle-avatar {
+  width: 100px;
+  height: 100px;
   border-radius: 50%;
 }
 
-.decoration {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -70%);
-     -moz-transform: translate(-50%, -70%);
-      -ms-transform: translate(-50%, -70%);
-          transform: translate(-50%, -70%);
-  z-index: 100;
-  display: block;
+.title {
+  font-size: 20px;
+  line-height: 1.4;
+  letter-spacing: 0.025;
+  text-align: center;
 }
 
-.btn-xl, .btn-lg, .btn-md, .btn-sm {
-  font-family: Montserrat;
-  font-size: 14px;
+.p-8 {
+  padding: 8px;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.p-20 {
+  padding: 20px;
+}
+
+.margin-sm {
+  margin: 24px;
+}
+
+.margin-md {
+  margin: 32px;
+}
+
+.margin-lg {
+  margin: 36px;
+}
+
+.margin-xl {
+  margin: 68px;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-500 {
   font-weight: 500;
-  line-height: 20px;
-  /* 142.857% */
-  letter-spacing: 0.5px;
-  color: #fafafb;
-  background-color: #f07f2e;
-  border: none;
-  cursor: pointer;
-  -webkit-transition: 300ms;
-  -moz-transition: 300ms;
-  transition: 300ms;
-}
-.btn-xl:hover, .btn-lg:hover, .btn-md:hover, .btn-sm:hover {
-  background-color: #f15c27;
-  -webkit-box-shadow: 0px 4px 10px 0px rgba(240, 127, 46, 0.25);
-          box-shadow: 0px 4px 10px 0px rgba(240, 127, 46, 0.25);
 }
 
-.btn-sm {
-  padding: 4px 8px;
-  border-radius: 8px;
+.fw-600 {
+  font-weight: 600;
 }
 
-.btn-md {
-  padding: 8px 12px;
-  border-radius: 12px;
-}
-
-.btn-lg {
-  padding: 12px 16px;
-  border-radius: 16px;
-}
-
-.btn-xl {
-  padding: 16px 20px;
-  border-radius: 20px;
-}
-
-.btn-success {
-  border: 1px solid lightgreen;
-  color: lightgreen;
-}
-
-.btn-error {
-  border: 1px solid tomato;
-  color: tomato;
-}
-
-.btn-info {
-  border: 1px solid lightblue;
-  color: lightblue;
-}
-
-.button {
-  background-color: #fff;
-  border: 1 solid darkblue;
-}
-.button:not([disabled]):hover {
-  color: #fff;
-  background-color: darkblue;
+.fw-700 {
+  font-weight: 700;
 }
