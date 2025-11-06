@@ -21,7 +21,12 @@
 // @use "--examples--/3/badge";
 
 //4
-// @use "--examples--/4/extend"
+// @use "--examples--/4/extend";
 
 //5
-@use "--examples--/5/mixins"
+// @use "--examples--/5/mixins";
+
+//6
+@use "--examples--/6/if";
+@use "--examples--/6/each";
+@use "--examples--/6/for";
