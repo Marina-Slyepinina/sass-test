@@ -1,0 +1,6 @@
+@use "colors" as c;
+
+.button {
+    color: c.get-color("secondary");
+    background-color: c.get-color("background");
+}
