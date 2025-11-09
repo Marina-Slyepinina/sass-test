@@ -1,4 +1,7 @@
-@forward "mixin";
-@forward "variables";
-// @forward "variables" hide $active; - доступно все окрім $active
-// @forward "variables" show $active; - доступно тільки $active
+@forward "reset";
+@forward "spacing";
+@forward "colors";
+@forward "font";
+@forward "sizing";
+@forward "flex";
+@forward "utils";
